@@ -1,0 +1,6 @@
+X = str(input('Digite algo ou de uma cebaçada no teclado, você que sabe... Eu não me importo!: '))
+print('O tipo primitivo é {}'.format(type(X)))
+print('Se eu afirmar que este texto é um numero, essa afirmação será:', X.isnumeric())
+print('Se eu afirmar que este texto é uma letra, essa afirmação será:', X.isalpha())
+print('Se eu afirmar que este texto é alfanumerico, essa afirmação será:', X.isalnum())
+print('Se eu afirmar que este texto é decimal, essa afirmação será:', X.isdecimal())
